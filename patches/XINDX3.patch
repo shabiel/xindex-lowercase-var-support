@@ -1,0 +1,13 @@
+1c1
+< XINDX3 ;ISC/REL,GRK,RWF - PROCESS MERGE/SET/READ/KILL/NEW/OPEN COMMANDS ;2015-01-16  6:34 PM
+---
+> XINDX3 ;ISC/REL,GRK,RWF - PROCESS MERGE/SET/READ/KILL/NEW/OPEN COMMANDS ;06/24/08  15:44
+47,51c47,48
+<  ; VEN/SMH - Allow Lower case... SAC now allows it. 1/16/2015
+<  ;Q:X?1(1U,1"%").15UN ; old
+<  ;I X?1(1A,1"%").15AN D E^XINDX1(57) Q  ;Lowercase ; old
+<  ; VEN/SMH END CHANGE
+<  Q:X?1(1A,1"%").15AN
+---
+>  Q:X?1(1U,1"%").15UN
+>  I X?1(1A,1"%").15AN D E^XINDX1(57) Q  ;Lowercase
